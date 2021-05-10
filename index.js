@@ -111,7 +111,7 @@ class TicTacToe{
         const casilla3 = document.getElementById(`casilla-${numeroCasilla3}`)
         if (casilla3.classList.contains(`jugador-${player}`)){
           console.log('CASILLA 3')
-          alert(`GANASTAAA jugador ${player}`)
+          alert(`GANA jugador ${player}`)
         }
       }
     } 
